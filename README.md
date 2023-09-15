@@ -16,8 +16,6 @@ Agora, siga os passos abaixo para instalar o projeto Validator:
    composer require edsonr-coosta/validator
    ```
 
-   Certifique-se de substituir `seu-nome-de-usuario` pelo seu nome de usuário no Packagist ou pelo nome da organização, se aplicável.
-
 3. O Composer baixará e instalará automaticamente o projeto Validator e suas dependências no diretório `vendor` do seu projeto.
 
 ## Uso Básico
