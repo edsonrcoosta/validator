@@ -67,6 +67,23 @@ class Validator
     }
 
     /**
+     * Verifica se o valor do campo é um endereço de e-mail válido.
+     *
+     * @throws Exception Se o valor do campo não for um endereço de e-mail válido.
+     *
+     * @return Validator A instância do Validator para encadeamento.
+     */
+    public function email()
+    {
+        if (!filter_var($this->data[$this->field], FILTER_VALIDATE_EMAIL)) {
+            throw new Exception("The field value '{$this->field}' is not a valid email address.");
+        }
+
+        return $this;
+    }
+
+
+    /**
      * Obtém o valor do campo.
      *
      * @throws Exception Se o campo não existir ou estiver vazio e não for marcado como obrigatório.
