@@ -1,6 +1,6 @@
 # Documentação de Instalação do Projeto Validator
 
-Esta documentação descreve como instalar e utilizar a classe `Validator` em seu projeto PHP e publicá-la no [Packagist](https://packagist.org/) para que outros desenvolvedores possam aproveitar essa funcionalidade. A classe `Validator` é uma ferramenta útil para validar campos em objetos de dados.
+Esta documentação descreve como instalar e utilizar a classe `Validator` em seu projeto PHP. A classe `Validator` é uma ferramenta útil para validar campos em objetos de dados.
 
 ## Instalação
 
