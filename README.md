@@ -12,7 +12,7 @@ Agora, siga os passos abaixo para instalar o projeto Validator:
 
 2. Execute o seguinte comando para adicionar o projeto Validator como uma dependência:
 
-   ```bash
+   ```shell
    composer require edsonr-coosta/validator
    ```
 
