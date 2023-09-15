@@ -1,0 +1,20 @@
+{
+    "name": "edsonr-coosta/validator",
+    "description": "O Projeto Validator é uma biblioteca PHP que oferece uma maneira simples e eficaz de validar campos em objetos de dados. ",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Edson Costa",
+            "email": "edsonrcostan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Negotel\\Validators\\": "source/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
